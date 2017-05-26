@@ -1,0 +1,7 @@
+{{#if isButtonReady}}
+  <button onclick={{action "clickButton"}}>
+    Do treatment
+  </button>
+{{else if isButtonPending}}
+  <div class="loader"></div>
+{{/if}}

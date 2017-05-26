@@ -1,0 +1,13 @@
+<div class="form__field form__field--name">
+  <p><label for="name">Name:</label></p>
+  <p>{{input name="name" placeholder="Ex: Jérémy Buget" autofocus="autofocus"}}</p>
+</div>
+
+<div class="form__field form__field--email">
+  <p><label for="email">E-mail:</label></p>
+  <p>{{input name="email"}}</p>
+</div>
+
+<div class="form__actions">
+  {{form-button buttonClicked=(action "doTreatment")}}
+</div>
